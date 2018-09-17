@@ -37,14 +37,16 @@ The Original and Replace Data sizes should match.
 
 The Data in the offset address will be read in run-time and compared with the Original Data if they are different it will not patch the address.
 
-![screenshot from configuration](screenshots\screenshot.png)
+There are 2 examples under Examples directory. one with unpacked exe and the other with packed exe. 
 
-There are 2 examples under examples directory. one with unpacked exe and the other with packed exe. 
+
+![](screenshots/screenshot.PNG)
+
 
 #
 
 ### Build from source
-****Configurator dependencies***:
+***Configurator dependencies***:
 
 patchya-configurator uses QT, it was developed with QT 5.11.1 and MinGW 32 bit
 
@@ -52,11 +54,15 @@ patchya-configurator uses QT, it was developed with QT 5.11.1 and MinGW 32 bit
 1) ***First build QT project***
     * Use QT creator, open and build the or through CMD
 2) ***Second, Build the Loader***
-	Create folder with name Build inside patchy-loader 
-    from project parent directory
+
+    * Create folder with name Build inside patchy-loader 
+	
+    * from project parent directory type
+    
     '$(MAKE)'
 3) ***Finally, Set executables to correct paths(optional)***
-    '$(MAKE) install'
+
+    * '$(MAKE) install'
     
 #
 
