@@ -5,12 +5,12 @@ patchya is a Run-time loader and patcher for executables. It can be configured t
 #
 
 ### Features
-* Portable: patchya is built to be portable, all the logic that is Arch/OS dependent, data types, standard library calls..... are implemented under Arch directory.
-* Flexible: patchya code is very modular, you can simply add, remove or replace modules as searching and debugging APIs.
 * GUI configurator: patchya has a user-friendly GUI configurator built with QT.
 * Gate conditioning with 3 different types
 * Offset patching and Search and Replace patching with '?' wildcard.
 * Logging: the loader has a logging feature that is enabled by default, it can be used to detect problems with integration between configurator and loader and run-time errors inside the loader.
+* Portable: patchya is built to be portable, all the logic that is Arch/OS dependent, data types, standard library calls..... are implemented under Arch directory.
+* Flexible: patchya code is very modular, you can simply add, remove or replace modules as searching and debugging APIs.
 
 #
 
